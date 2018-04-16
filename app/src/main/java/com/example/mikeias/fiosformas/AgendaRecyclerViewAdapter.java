@@ -44,6 +44,12 @@ public class AgendaRecyclerViewAdapter extends RecyclerView.Adapter<AgendaRecycl
         holder.dataAgenda.setText(mAgenda.get(position).getDataAgenda());
         holder.horaAgenda.setText(mAgenda.get(position).getHoraAgenda());
         holder.situacaoAgenda.setText(mAgenda.get(position).getSituacaoAgenda());
+
+        if (holder.situacaoAgenda.getText().equals("Atrasada")){
+            holder.situacaoAgenda.setTextColor(R.color.situacaoAtrasada);
+        }else{
+            holder.situacaoAgenda.setTextColor(R.color.situacaoOk);
+        }
     }
 
     @Override

@@ -6,4 +6,6 @@
     <color name="colorDark">#b4004e</color>
     <color name="colorDarkSecundaria">#ec407a</color>
     <color name="white">#FFFFFF</color>
+    <color name="situacaoOk">#0f9109</color>
+    <color name="situacaoAtrasada">#efa1041b</color>
 </resources>

@@ -11,19 +11,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="16dp">
+        android:padding="8dp">
         <EditText
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
             android:id="@+id/edtDataIni"
-            android:hint="De 01/04/2018"
+            android:hint=" 12/04/18"
+            android:drawableLeft="@drawable/ic_data"
             android:layout_width="150dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content" />
         <EditText
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_data"
             android:id="@+id/edtDataFim"
-            android:hint="Até 21/04/2018"
+            android:hint=" 14/04/18"
             android:layout_width="150dp"
             android:layout_height="wrap_content" />
     </LinearLayout>
