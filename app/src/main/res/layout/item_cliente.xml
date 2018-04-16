@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/card_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    app:cardCornerRadius="4dp"
+    >
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="4dp">
+        <ImageView
+            android:id="@+id/txt_foto"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/ic_usuario_24dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="4dp">
+
+        <TextView
+            android:id="@+id/txt_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome"
+            android:textStyle="bold"
+            android:textColor="#282828"
+            android:maxLength="16"/>
+        <TextView
+            android:id="@+id/txt_fone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fone"
+            android:textColor="#787676"/>
+        <TextView
+            android:id="@+id/txt_hora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Horário:"
+            android:textColor="#787676"/>
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:padding="8dp">
+            <TextView
+                android:id="@+id/txt_situacao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Situação"
+                android:textStyle="bold"
+                android:gravity="end"
+                android:textColor="#10b145"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

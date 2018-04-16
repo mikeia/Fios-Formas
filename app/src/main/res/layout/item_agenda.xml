@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/card_viewAgenda"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    app:cardCornerRadius="4dp"
+    >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_nomeAgenda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thais Conrrado Lima Maciel"
+                android:textStyle="bold"
+                android:textColor="#282828"
+                android:maxLength="25"/>
+            <TextView
+                android:id="@+id/txt_foneAgenda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fone: 99703-7151"
+                android:textColor="#787676"/>
+            <TextView
+                android:id="@+id/txt_planoAgenda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plano: Fixo"
+                android:textColor="#787676"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txt_dataAgenda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20/04/2018"
+                android:gravity="end"
+                android:textColor="#282828"
+                android:maxLength="16"/>
+            <TextView
+                android:id="@+id/txt_horaAgenda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12:50 as 13:15"
+                android:textColor="#787676"/>
+            <TextView
+                android:id="@+id/txt_situacaoAgenda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Atrasada"
+                android:gravity="end"
+                android:textStyle="bold"
+                android:textColor="#d91a1a"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

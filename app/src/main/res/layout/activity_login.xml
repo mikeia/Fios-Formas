@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="com.example.mikeias.fiosformas.LoginActivity"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFF">
+
+    <ImageView
+        android:layout_marginTop="56dp"
+        android:layout_width="156dp"
+        android:layout_height="156dp"
+        android:src="@drawable/fundoo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="32sp"/>
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/edt_email"
+        android:layout_marginTop="24dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:background="@drawable/edt_email_personalizado"
+        android:padding="8dp"
+        android:textSize="22sp"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/ic_usuario_24dp"/>
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/edt_senha"
+        android:background="@drawable/edt_email_personalizado"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:hint="senha"
+        android:inputType="textPassword"
+        android:textSize="22sp"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/ic_senha_24dp"/>
+        <Button
+            android:id="@+id/btn_entrar"
+            android:text="Acessar"
+            android:textSize="20sp"
+            android:layout_marginTop="36dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bt_entrar"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:id="@+id/txt_esqueceu_senha"
+            android:layout_marginTop="36dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Esqueci minha senha"
+            android:textColor="@color/colorPrimary"/>
+    </LinearLayout>
+</ScrollView>
+
